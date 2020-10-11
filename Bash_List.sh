@@ -50,57 +50,57 @@ echo -e "Ходы Bounce Drain Punch Dual Chop">> togepi5/mienshao
 #Setting up permissions for each file 
 
 #--- r-- r--
-chmod maril12 044
+chmod 044 maril12
 
 #-wx --x --x
-chmod monferno9 311
+chmod 311 monferno9
 
 	#-wx r-x rwx
-	chmod monferno9/darmanitan 357
+	chmod 357 monferno9/darmanitan
 
 	#r-- --- r--
-	chmod monferno9/goldeen 404
+	chmod 404 monferno9/goldeen
 
 	#--- r-- rw-
-	chmod monferno9/persian 046
+	chmod 046 monferno9/persian
 
 	#rw- r-- -w-
-	chmod monferno9/slugma 642
+	chmod 642 monferno9/slugma
 
 
 #r-- --- r--
-chmod palpitoad0 404
+chmod 404 palpitoad0 
 
 #rw- rw- r--
-chmod pidgeot6 664
+chmod 664 pidgeot6
 
 
 #rw- rw- rw-
-chmod sandslash0 666
+chmod 666 sandslash0
 
 	#-wx --x rwx
-	chmod sandslash0/glalie 317
+	chmod 317 sandslash0/glalie
 
 	#rw- --- ---
-	chmod sandslash0/growlithe 600
+	chmod 600 sandslash0/growlithe
 
 	#r-- --- r--
-	chmod sandslash0/togepi 404
+	chmod 404 sandslash0/togepi 
 
 	#-wx rw- --x
-	chmod sandslash0/gigalith 361
+	chmod 361 sandslash0/gigalith
 
 #rwx rw- r--
-chmod togepi5 764
+chmod 764 togepi5
 
 	#r-- r-- ---
-	chmod togepi5/fraxure 440
+	chmod 440 togepi5/fraxure
 
 	#r-x --x -w-
-	chmod togepi5/watchog 512
+	chmod 512 togepi5/watchog
 
 	#r-- r-- ---
-	chmod togepi5/mienshao 440
+	chmod 440 togepi5/mienshao 
 
 
 
