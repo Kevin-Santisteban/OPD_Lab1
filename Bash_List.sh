@@ -1,4 +1,4 @@
-#Creating tree lab0 
+#1. Creating tree lab0 
 mkdir lab0
 cd lab0
 	
@@ -47,7 +47,7 @@ echo -e "Helping Hand Knock Off Low Kick Role">> togepi5/mienshao
 echo -e "Ходы Bounce Drain Punch Dual Chop">> togepi5/mienshao
 
 
-#Setting up permissions for each file 
+#2 Setting up permissions for each file 
 
 #--- r-- r--
 chmod 044 maril12
@@ -103,8 +103,17 @@ chmod 764 togepi5
 	chmod 440 togepi5/mienshao 
 
 
+#3. Creating Soft and Hard Links 
+
+ln -s pidgeot6 "lab0/monferno9/goldeenpidgeot"
+#ln: failed to create symbolic link 'lab0/monferno9/goldeenpidgeot': No such file or directory
 
 
-#Uploading Script as a backup
+
+
+
+
+
+#	Uploading Script as a backup
 cd ..
 scp -P 2222 Bash_List.sh s290605@se.ifmo.ru:/home/s290605
