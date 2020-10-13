@@ -43,8 +43,8 @@ echo -e "Развитые способности Super Luck">> sandslash0/togepi
 echo -e "Развитые\nспособности Unnerve">> togepi5/fraxure
 
 echo -e "Ходы Bounce Drain Punch Dual Chop">> togepi5/mienshao
-echo -e "Helping Hand Knock Off Low Kick Role">> togepi5/mienshao
-echo -e "Ходы Bounce Drain Punch Dual Chop">> togepi5/mienshao
+echo -e "Helping Hand Knock Off Low Kick Role Play Sleep Talk Snore">> togepi5/mienshao
+
 
 
 #2 Setting up permissions for each file 
