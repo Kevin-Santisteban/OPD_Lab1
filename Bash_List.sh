@@ -29,7 +29,7 @@ cd lab0
 		mkdir watchog
 		touch mienshao	
 		cd ..	
-
+	mkdir tmp
 
 #Adding file content 
 
@@ -128,7 +128,6 @@ cat palpitoad0 > monferno9/goldeenpalpitoad
 #Searching recursively files in current directory
 
 #---------------1--------------
-# (cat **/s* s*) 2> tmp/task1Errors|wc -l 
 (cat $(echo **/s* s*)) 2> tmp/task1Errors|wc -l
 #---------------1--------------
 

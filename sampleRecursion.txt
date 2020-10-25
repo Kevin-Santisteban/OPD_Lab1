@@ -1,0 +1,18 @@
+# here is a partial answer that shows the directory names.
+# ls -mR * | sed -n 's/://p'
+# Explanation:
+
+# ls -mR * lists the full directory names ending in a ':', then lists the files in that directory separately
+
+# sed -n 's/://p' finds lines that end in a colon, strip off the colon and print the line
+
+# By iterating over the list of directories, we should be able to find the directories as well. Still workin on it. It is a challenge to get the wildcards through xargs.
+
+#ls  -AmR */s* | sed -n 's/://p'|wc -l
+
+ls  -AmR */s*|wc -l
+
+^(/[^/ ]*)+/?$
+.*/L[^/]*
+
+ls -d -- s[0-9]*
