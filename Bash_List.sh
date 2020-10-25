@@ -105,14 +105,66 @@ chmod 764 togepi5
 
 #3. Creating Soft and Hard Links 
 
-ln -s pidgeot6 "lab0/monferno9/goldeenpidgeot"
-#ln: failed to create symbolic link 'lab0/monferno9/goldeenpidgeot': No such file or directory
+ln -s pidgeot6 lab0/monferno9/goldeenpidgeot
+	#ln: failed to create symbolic link 'lab0/monferno9/goldeenpidgeot': No such file or directory
+
+cat togepi5/mienshao monferno9/goldeen > pidgeot6_45
+
+cp palpitoad0 togepi5/watchog
+
+cp -R togepi5 monferno9/darmanitan
+
+ln -s sandslash0 Copy_66
+
+ln palpitoad0 lab0/sandslash0/togepipalpitoad
+	#ln: failed to create symbolic link 'lab0/sandslash0/togepipalpitoad': No such file or directory
+cat palpitoad0 > monferno9/goldeenpalpitoad
+
+#4. Searching and sorting Files
 
 
 
+#Double recursion with ** for every directory
+#Searching recursively files in current directory
+
+#---------------1--------------
+# (cat **/s* s*) 2> tmp/task1Errors|wc -l 
+(cat $(echo **/s* s*)) 2> tmp/task1Errors|wc -l
+#---------------1--------------
+
+
+#p defines the / operator, and -v matches whatever doesn't have it, files.
+#---------------2--------------
+ls -rLp monferno9/ 2>/dev/null| grep -v /| sort 
+#---------------2--------------
+
+
+#---------------3--------------
+cat -n  monferno9/persian sandslash0/growlithe 2>&1 |grep "Su"
+#---------------3--------------
+
+
+#---------------4--------------
+((wc -l monferno9/goldeen monferno9/persian sandslash0/growlithe sandslash0/togepi togepi5/fraxure) >tmp/task4Result) 2>&1
+#---------------4--------------
+
+#---------------5--------------
+ls -t -R -la 2>/dev/null |grep "li" | head -4
+#---------------5--------------
+
+#---------------6--------------
+(cat **/s* s* |sort -r)  2>&1
+#---------------6--------------
 
 
 
+#5 Deleting Files and directories
+rm -rf pidgeot6
+rm -rf togepi5/fraxure
+rm -rf monferno/goldeenpidge*
+rm -rf sandslash0/togepipalpito*
+rm -rf sanslash0
+rm -rf monferno9/slugma
 
 #	Uploading Script as a backup
 cd ..
