@@ -102,10 +102,17 @@ chmod 764 togepi5
 	#r-- r-- ---
 	chmod 440 togepi5/mienshao 
 
+#----------------FIX------------------------------
+#Fixed Permissions
+chmod -R 745 monferno9/
+chmod -R 745 sandslash0/
+chmod -R 745 togepi5/
+#----------------FIX------------------------------
 
 #3. Creating Soft and Hard Links 
 
-ln -s pidgeot6 lab0/monferno9/goldeenpidgeot
+#Fixed invalid name
+#ln -s pidgeot6 lab0/monferno9/goldeenpidgeot
 	#ln: failed to create symbolic link 'lab0/monferno9/goldeenpidgeot': No such file or directory
 
 cat togepi5/mienshao monferno9/goldeen > pidgeot6_45
@@ -116,9 +123,19 @@ cp -R togepi5 monferno9/darmanitan
 
 ln -s sandslash0 Copy_66
 
-ln palpitoad0 lab0/sandslash0/togepipalpitoad
+#Fixed invalid name
+#ln palpitoad0 lab0/sandslash0/togepipalpitoad
 	#ln: failed to create symbolic link 'lab0/sandslash0/togepipalpitoad': No such file or directory
 cat palpitoad0 > monferno9/goldeenpalpitoad
+
+#----------------FIX------------------------------
+#Fixed names
+ln palpitoad0 sandslash0_togepipalpitoad
+ln -s pidgeot6 monferno9_goldeenpidgeot
+#----------------FIX------------------------------
+
+
+
 
 #4. Searching and sorting Files
 
@@ -165,6 +182,6 @@ rm -rf sandslash0/togepipalpito*
 rm -rf sanslash0
 rm -rf monferno9/slugma
 
-#	Uploading Script as a backup
-cd ..
-scp -P 2222 Bash_List.sh s290605@se.ifmo.ru:/home/s290605
+# #	Uploading Script as a backup
+# cd ..
+# scp -P 2222 Bash_List.sh s290605@se.ifmo.ru:/home/s290605

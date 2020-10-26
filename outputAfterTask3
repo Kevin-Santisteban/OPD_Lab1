@@ -1,0 +1,64 @@
+.:
+total 3
+lrwxrwxrwx 1 kevin kevin  10 окт 26 05:14 Copy_66 -> sandslash0
+-rwxrwxrwx 1 kevin kevin  52 окт 26 05:14 maril12
+drwxrwxrwx 1 kevin kevin 440 окт 26 05:14 monferno9
+-rwxrwxrwx 1 kevin kevin   0 окт 26 05:15 outputAfterTask3
+-rwxrwxrwx 1 kevin kevin  20 окт 26 05:14 palpitoad0
+-rwxrwxrwx 1 kevin kevin  91 окт 26 05:14 pidgeot6
+-rwxrwxrwx 1 kevin kevin 150 окт 26 05:14 pidgeot6_45
+drwxrwxrwx 1 kevin kevin 448 окт 26 05:14 sandslash0
+drwxrwxrwx 1 kevin kevin   0 окт 26 05:14 tmp
+drwxrwxrwx 1 kevin kevin 344 окт 26 05:14 togepi5
+
+./monferno9:
+total 2
+drwxrwxrwx 1 kevin kevin 144 окт 26 05:14 darmanitan
+-rwxrwxrwx 1 kevin kevin  53 окт 26 05:14 goldeen
+-rwxrwxrwx 1 kevin kevin  20 окт 26 05:14 goldeenpalpitoad
+-rwxrwxrwx 1 kevin kevin  53 окт 26 05:14 persian
+drwxrwxrwx 1 kevin kevin   0 окт 26 05:14 slugma
+
+./monferno9/darmanitan:
+total 0
+drwxrwxrwx 1 kevin kevin 344 окт 26 05:14 togepi5
+
+./monferno9/darmanitan/togepi5:
+total 1
+-rwxrwxrwx 1 kevin kevin  48 окт 26 05:14 fraxure
+-rwxrwxrwx 1 kevin kevin  97 окт 26 05:14 mienshao
+drwxrwxrwx 1 kevin kevin 152 окт 26 05:14 watchog
+
+./monferno9/darmanitan/togepi5/watchog:
+total 1
+-rwxrwxrwx 1 kevin kevin 20 окт 26 05:14 palpitoad0
+
+./monferno9/slugma:
+total 0
+
+./sandslash0:
+total 1
+drwxrwxrwx 1 kevin kevin  0 окт 26 05:14 gigalith
+drwxrwxrwx 1 kevin kevin  0 окт 26 05:14 glalie
+-rwxrwxrwx 1 kevin kevin  0 окт 26 05:14 glowlithe
+-rwxrwxrwx 1 kevin kevin 51 окт 26 05:14 growlithe
+-rwxrwxrwx 1 kevin kevin 51 окт 26 05:14 togepi
+
+./sandslash0/gigalith:
+total 0
+
+./sandslash0/glalie:
+total 0
+
+./tmp:
+total 0
+
+./togepi5:
+total 1
+-rwxrwxrwx 1 kevin kevin  48 окт 26 05:14 fraxure
+-rwxrwxrwx 1 kevin kevin  97 окт 26 05:14 mienshao
+drwxrwxrwx 1 kevin kevin 152 окт 26 05:14 watchog
+
+./togepi5/watchog:
+total 1
+-rwxrwxrwx 1 kevin kevin 20 окт 26 05:14 palpitoad0
